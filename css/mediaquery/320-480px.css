@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300;400 & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(2, 2, 19);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-dark{
+    background-color: rgb(2, 2, 19);
+}
+.present{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.present img.imagem{
+    width:100%;
+    -webkit-animation: slideright 2s ease-in-out;
+    -moz-animation: slideright 2s ease-in-out;
+    -o-animation: slideright 2s ease-in-out;
+    animation: slideright 2s ease-in-out;
+}@keyframes slideright{
+    from{
+        transform: translate(100px);
+        opacity: 0;
+    }to{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+
+.dialog{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;   
+    border-radius: 10px;
+    background-color: rgb(1, 240, 200);
+    box-shadow: 5px 1px 20px rgba(6, 206, 179, 0.418);
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+}.dialog:hover{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3);
+    box-shadow: 1px 1px 20px rgba(6, 206, 179, 0.418);
+    color:rgb(1, 240, 200)
+}
+.fadeDescription h1{
+    font-size: 30px;
+
+}
+
+.fadeDescription p{
+    font-size: 12px;
+
+}
+.fadeDescription {
+    text-align : center;
+    margin-top: 100px;
+    
+    opacity:0;
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out; 
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+.mouse{
+    margin-top: 10px;
+    color:rgb(1, 240, 200);
+    text-align: center;
+}
+.modal-dialog .modal-content{
+    background-color: rgb(4, 167, 140);
+    color:black;
+    border: border-box;
+    box-shadow: 10px 10px 30px rgba(6, 206, 179, 0.418);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: aliceblue;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}.material-symbols-outlined:hover{
+    color: rgb(1, 240, 200);
+}
+.offcanvas{
+    background-color: rgb(4, 167, 140) ;
+}
+.offcanvas-title{
+    color: aliceblue;
+}
+a.nav-link{
+    color:aliceblue;
+    padding-bottom: 5px;
+    font-size: 16px;
+}a.nav-link span{
+    width: 30px;
+}
+.copy{
+    text-align: center;
+    cursor:default;
+    color:aliceblue;
+    font-size: 12px;
+}
+.copy:hover{
+    color:aliceblue
+}
+.copy-icon{
+    text-align: center;
+    cursor:default;
+    color:aliceblue;
+    padding-bottom: 2px
+;
+}
+.copy-icon:hover{
+    color:aliceblue
+}
+
+#emoji{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.response{
+    align-items: center;
+    text-align: center;
+    color:aliceblue
+}
+
+.loader{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display:flex
+}
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #06adad;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+.form-control{
+    color:#06adad;
+}
